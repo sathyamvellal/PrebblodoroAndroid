@@ -5,12 +5,15 @@
 'use strict';
 
 var React = require('react-native');
+var app = require('./app');
 var {
   AppRegistry,
   StyleSheet,
   Text,
   View,
 } = React;
+
+app.init();
 
 var PrebblodoroAndroid = React.createClass({
   render: function() {
